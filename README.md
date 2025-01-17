@@ -22,11 +22,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- OsTicket Installation Files
-- SLAs
-- Departments
-- P
-- Item 5
+- Enable internet information service
+- Install web platform installer
+- Install MySQL
+- Intall C++ redistribuatable
+- Configure permissions and install OsTicket
 
 <h2>Installation Steps</h2>
 
