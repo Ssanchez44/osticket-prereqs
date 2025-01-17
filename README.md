@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install /PHP Manager for IIS
 - install the Rewrite Module 
 - Intall C++ redistribuatable
-- Configure permissions and install OsTicket
+- Install MySQL
 
 <h2>Installation Steps</h2>
 
