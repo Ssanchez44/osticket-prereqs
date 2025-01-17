@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 
-![image](https://github.com/user-attachments/assets/b59a849f-0f38-43b0-a8c8-d6e7fc54f336)
+![image](https://github.com/user-attachments/assets/0864ad33-bb0e-4e62-8fd8-e23401d40000)
 
 </p>
 <p>
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 
-![image](https://github.com/user-attachments/assets/51d45dcb-b9d0-407b-bd1e-1275782d7af5)
+![image](https://github.com/user-attachments/assets/85cd0e1f-a61b-432e-b00a-41b40ad98cd9)
 
 </p>
 <p>
@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/2125d24f-d58b-4691-963e-b61f1bf0387d)
 
 </p>
 <p>
@@ -84,7 +84,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/c8e2c575-6591-4f76-8801-9f50bf7d7222)
 
 </p>
 <p>
