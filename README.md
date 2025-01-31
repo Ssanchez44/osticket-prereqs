@@ -23,6 +23,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
+- Setup a Virtual Machine in Azure
+- Install the osTicket requirements
+- Install ofTicket itself
+- configuration of osTicket
+- explore osTicket as a Help Desk Professional
+
+   
 - Enable internet information service
 - Install /Enable IIS in Windows WITH CGI
 - Install /PHP Manager for IIS
@@ -39,7 +46,187 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-By checking the Internet Informations Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+<br />
+
+<p>
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+
+</p>
+<p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
 <br />
 
 <p>
