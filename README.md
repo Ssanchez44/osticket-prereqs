@@ -633,9 +633,6 @@ Refresh the osTicket Installer Page
 Go back to your browser where the osTicket web installer is open.
 Refresh the page, and the previously unchecked extensions should now be enabled.
 
-
-
-
 </p>
 
 <br />
@@ -646,15 +643,192 @@ Refresh the page, and the previously unchecked extensions should now be enabled.
 
 ![image](https://github.com/user-attachments/assets/7d6b13a4-9a69-42c2-a1a3-b20d9ebb4f2a)
 
+![image](https://github.com/user-attachments/assets/20574c78-30d4-467d-8a27-8903dabd8eaa)
+
+![image](https://github.com/user-attachments/assets/14c24fe5-303b-4f4f-ac2a-1cdca6d8799a)
+
+![image](https://github.com/user-attachments/assets/17ce00a1-531b-4857-8fc7-5d20e99b5eb1)
+
+![image](https://github.com/user-attachments/assets/22f81a8a-9d18-4154-afc5-1f29cec1c3a4)
+
+![image](https://github.com/user-attachments/assets/2e2f4949-459a-488b-9f34-448e16172fb4)
+
+![image](https://github.com/user-attachments/assets/f19fe4cd-708f-4fb5-8641-a448b3177451)
+
+![image](https://github.com/user-attachments/assets/f5ed1acb-7aee-4867-8a07-b502a84ba805)
+
+
 </p>
 
 <p>
 
-Step 1: Open osTicket Installer in a Browser
-Open IIS Manager
+Step 1: Rename ost-sampleconfig.php to ost-config.php
+Navigate to the osTicket Directory
+
+Open File Explorer and go to:
+C:\inetpub\wwwroot\osTicket\include
+Find and Rename the Configuration File
+
+Locate the file ost-sampleconfig.php.
+Right-click on it and select Rename.
+Change the name to ost-config.php (exactly like this).
+Press Enter to confirm the rename.
+
+Step 2: Assign Permissions to ost-config.php
+Right-Click on ost-config.php
+
+Select Properties.
+Go to the Security Tab
+
+Click on the Security tab.
+Click Advanced.
+Disable Inheritance
+
+Click Disable Inheritance.
+A prompt will appear—click Remove all inherited permissions.
+Add New Permissions
+
+Click Add.
+Click Select a Principal.
+In the Object Name field, type Everyone.
+Click OK.
+Grant Full Control
+
+Check the box for Full Control.
+Click OK to apply the changes.
+Apply and Close
+
+
+</p>
+
+<br />
+
+<p>
+
+
+![image](https://github.com/user-attachments/assets/f575933c-9430-4131-b350-32d756bb63fd)
 
 
 
+</p>
+
+<p>
+
+Open the osTicket Web Installer
+
+If not already open, go to your browser where the osTicket installation page is running.
+Enter Helpdesk Information
+
+Helpdesk Name: Enter your name or any name you prefer for the helpdesk.
+Helpdesk Email: Enter a valid email address (this will be used for support notifications).
+Configure Admin User Details
+
+First Name & Last Name: Enter your full name.
+Admin Email: Use a different email than the one entered in the helpdesk email field.
+Username: Choose a username (this will be used to log in).
+Password: Create a strong password and remember it (you'll need it to log in).
+
+</p>
+
+<br />
+
+<p>
+
+
+![image](https://github.com/user-attachments/assets/cdad13f5-6c62-4ecc-838d-bc4d87b780ef)
+
+![image](https://github.com/user-attachments/assets/95e5be95-69dc-466b-bd39-6a6103298883)
+
+![image](https://github.com/user-attachments/assets/f3a6ea77-f29e-414d-877e-d0384e132e4d)
+
+![image](https://github.com/user-attachments/assets/406f60c5-6788-41ff-a03b-294f792cc228)
+
+![image](https://github.com/user-attachments/assets/61c41b76-24bb-42ba-b4aa-d8680e5b4a7b)
+
+![image](https://github.com/user-attachments/assets/4ec9af0b-5898-4aac-9823-5cdfc84a0191)
+
+
+
+</p>
+
+<p>
+
+Step 1: Install HeidiSQL
+Navigate to the osTicket Installation Files
+
+Open File Explorer and go to the folder where you have your osTicket installation files.
+Find and Install HeidiSQL
+
+Locate the HeidiSQL installer.
+Double-click it to start the installation.
+Click OK and proceed with the installation.
+Complete the Installation
+
+Once the installation is done, click Finish.
+A pop-up may appear—just skip it.
+
+Step 2: Set Up a New Database Connection
+Open HeidiSQL
+
+After installation, launch HeidiSQL.
+Create a New Connection
+
+Click on New to create a new connection.
+Enter Database Credentials
+
+User: root
+Password: root
+Leave other settings as default.
+Open the Connection
+
+Click Open to connect to the database server.
+
+Step 3: Create the osTicket Database
+Locate the "Unnamed" Section
+
+In the left panel, find Unnamed and right-click it.
+Select Create New > Database.
+Enter Database Name
+
+Type osTicket (exactly like this, case-sensitive).
+Click OK to create the database.
+
+
+</p>
+
+<br />
+
+<p>
+
+
+![image](https://github.com/user-attachments/assets/133f9357-d2c1-4d32-afbf-03891a59caa6)
+
+![image](https://github.com/user-attachments/assets/88d20140-4d33-4481-a6ef-49af48dfc746)
+
+
+
+
+</p>
+
+<p>
+
+Step 1: Continue osTicket Setup in the Browser
+If not already open, go back to your browser where the osTicket web installer is running.
+Scroll down to the MySQL Database Settings section.
+
+Step 2: Enter MySQL Database Details
+Database Name: osTicket (must match the database you created in HeidiSQL).
+Username: root
+Password: root
+Leave other settings as default.
+
+Step 3: Install osTicket
+Double-check all the details to ensure accuracy.
+Click Install Now.
+Wait for the installation to complete.
+
+Step 4: Confirmation Message
+Once installed, you should see a "Congratulations" message confirming a successful installation.
 
 
 
