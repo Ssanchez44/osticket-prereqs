@@ -151,11 +151,48 @@ After entering your credentials, you should successfully connect to your VM and 
 <p>
 
   
-![image](https://github.com/user-attachments/assets/07c50195-05b8-4eb7-ab20-8a9fe034ff3f)
+![image](https://github.com/user-attachments/assets/a2fdaf28-bb29-4bdd-a5af-f603cdd0901a)
+
+![image](https://github.com/user-attachments/assets/92c7974d-06fc-4a2c-ae46-3e95fab5335d)
+
+![image](https://github.com/user-attachments/assets/8396c049-83a8-4ea6-bba0-691c06fd21dc)
+
+![image](https://github.com/user-attachments/assets/3da87608-82c1-4f24-813a-e73b5fb22d05)
+
+![image](https://github.com/user-attachments/assets/a182c23f-b6fa-4a9a-ace3-10a3cf4f3965)
+
+
+
+
 
 </p>
 <p>
-By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+Step 1: Download the osTicket Installation Files
+Download the file osTicket-Installation-Files.zip that I’ve provided.
+
+Step 2: Navigate to the Downloads Folder
+Once the download is complete, open File Explorer.
+Go to the Downloads folder where you’ll find the osTicket-Installation-Files.zip.
+
+Step 3: Move the File to the Desktop
+Drag the osTicket-Installation-Files.zip file from the Downloads folder and drop it onto your Desktop for easier access.
+
+Step 4: Extract the Files
+Right-click on the osTicket-Installation-Files.zip file on your Desktop.
+Select Extract All from the context menu.
+The Extract Compressed (Zipped) Folders window will appear.
+Click Next to proceed with extraction.
+
+Step 5: Wait for the Extraction to Complete
+The files will begin extracting, and you’ll see a progress bar.
+Once the extraction is complete, a new folder will appear on your Desktop called osTicket files.
+
+Step 6: Delete the Original ZIP File
+You can now safely delete the original osTicket-Installation-Files.zip file from your Desktop as you no longer need it.
+Be careful not to delete the extracted osTicket files folder. Only delete the original ZIP file.
+
+</p>
+
 <br />
 
 <p>
@@ -167,7 +204,10 @@ By checking the Internet Information Services It sets up a web server environmen
 
 </p>
 <p>
-By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.
+
+</p>
+
 <br />
 
 <p>
@@ -179,7 +219,10 @@ By checking the Internet Information Services It sets up a web server environmen
 
 </p>
 <p>
-By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.</p>
+By checking the Internet Information Services It sets up a web server environment on your system, allowing it to host websites and web applications.
+
+</p>
+
 <br />
 
 <p>
