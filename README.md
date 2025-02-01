@@ -449,6 +449,8 @@ OsTicket requires MySQL because it is the database version compatible with the s
 
 ![image](https://github.com/user-attachments/assets/044de7e0-5fd8-4ddb-ae8e-dc6679d152c0)
 
+![image](https://github.com/user-attachments/assets/f5d1a554-7efc-4fd8-bc33-e5d6fd9ab1e3)
+
 
 </p>
 
@@ -472,8 +474,189 @@ Inside the PHP folder, locate the php-cgi.exe file.
 Double-click on php-cgi.exe to select it.
 After selecting php-cgi.exe, click OK.
 
-Step 5: Finish the Registration Process:
-IIS will now register PHP to work with your server. Once this is done, you should see PHP listed as an active version in the PHP Manager in IIS.
+Step 5: Open IIS Manager:
+
+If it's not already open, press the Windows key, type IIS, and open Internet Information Services (IIS) Manager as an administrator.
+Locate Your Server (osticket-vm):
+
+On the left panel, find and click on osticket-vm (it may appear as osticket-vm (osticket-vm\lab)).
+Stop the IIS Process:
+
+In the right panel under Actions, find and click Stop.
+Alternatively, you can right-click on osticket-vm in the left panel and select Stop.
+Restart IIS:
+
+Once the process has fully stopped, right-click on osticket-vm again.
+Click Start to restart the IIS service.
+
+</p>
+
+<br />
+
+
+<p>
+
+
+![image](https://github.com/user-attachments/assets/0b69bdae-778b-47a3-968c-0f791322ba84)
+
+![image](https://github.com/user-attachments/assets/c300926f-969f-4673-86b6-29a09548dc6c)
+
+![image](https://github.com/user-attachments/assets/8e835717-b36d-4403-b08d-543b86f3eefa)
+
+![image](https://github.com/user-attachments/assets/64736e86-0a2d-430a-b143-d8940bab969d)
+
+![image](https://github.com/user-attachments/assets/73a23d06-6007-433a-b019-dfb205136a45)
+
+![image](https://github.com/user-attachments/assets/e75e1807-386c-48b9-8084-dc87d7027cac)
+
+![image](https://github.com/user-attachments/assets/bba5a261-0366-4713-b4dc-60d9e47d90e3)
+
+</p>
+
+<p>
+
+Step 1: Locate the osTicket Installation Folder
+
+Step 2: Open File Explorer and navigate to the folder where you downloaded osTicket v1.15.8.
+Extract the osTicket Files
+
+Step 3:Right-click on the osTicket v1.15.8 folder.
+Click Extract All and then click Extract (no need to move the files).
+Wait for the extraction process to complete.
+Open the Extracted osTicket Folder
+
+Step 4: After extraction, you will see a new osTicket folder.
+Click on it, and you should see two subfolders inside.
+Navigate to the IIS Web Root Directory
+
+Step 5: Open a new File Explorer window.
+Navigate to C:\inetpub\wwwroot.
+Move the osTicket Upload Folder
+
+Step 6: Go back to the extracted osTicket folder you previously opened.
+Open the upload folder inside it.
+Drag and drop the upload folder into C:\inetpub\wwwroot.
+Rename the Upload Folder
+
+Step 7: Once the file transfer is complete, go to C:\inetpub\wwwroot.
+Find the upload folder.
+Right-click on it and select Rename.
+Rename it to osTicket (exactly like this, case-sensitive).
+
+
+</p>
+
+<br />
+
+<p>
+
+
+![image](https://github.com/user-attachments/assets/f1c2dd5a-c923-47d1-b525-c8f48c7eedd5)
+
+</p>
+
+<p>
+
+Open IIS Manager
+
+Press the Windows key, type IIS, and select Internet Information Services (IIS) Manager.
+Right-click and choose Run as administrator.
+Locate the Server (osticket-vm)
+
+In the left panel, find and click on osticket-vm.
+Stop IIS
+
+In the right panel, under Actions, click Stop.
+Wait for IIS to fully stop before proceeding.
+Start IIS as Admin
+
+Click Start in the Actions panel.
+
+
+</p>
+
+<br />
+
+<p>
+
+
+![image](https://github.com/user-attachments/assets/7d6b13a4-9a69-42c2-a1a3-b20d9ebb4f2a)
+
+![image](https://github.com/user-attachments/assets/0cbc7213-364c-44e7-838f-c7e5a473d7d4)
+
+![image](https://github.com/user-attachments/assets/7ab3efc4-cafa-44f2-a9b3-abe6dd5b85bf)
+
+![image](https://github.com/user-attachments/assets/defc30fc-c0db-40eb-bfbb-cc1e321a4a6f)
+
+![image](https://github.com/user-attachments/assets/41f1256e-8cc2-4dcd-be03-bab2e5681f09)
+
+![image](https://github.com/user-attachments/assets/51cfda85-0ff7-4ee1-8a74-9fe3167ed4ad)
+
+![image](https://github.com/user-attachments/assets/8c0c92bd-5d0d-4943-8d21-7202eb22c08c)
+
+</p>
+
+<p>
+
+Step 1: Open osTicket Installer in a Browser
+Open IIS Manager
+
+Press the Windows key, type IIS, and select Internet Information Services (IIS) Manager.
+Ensure you're running it as Administrator.
+Navigate to osTicket in IIS
+
+In the left panel, expand osticket-vm.
+Expand Sites, then expand Default Web Site.
+Click on osTicket.
+Browse to osTicket Web Installer
+
+In the right panel under Actions, click Browse.
+This should open the osTicket web installer in your default browser.
+You will see some PHP extensions unchecked, meaning they need to be enabled.
+
+Step 2: Enable Required PHP Extensions
+Go Back to IIS Manager
+
+In IIS Manager, navigate to osticket-vm > Sites > Default Web Site > osTicket.
+Open PHP Manager
+
+Click on PHP Manager in the middle panel.
+Enable the Required Extensions
+
+Click Enable or Disable an Extension.
+Find and enable the following extensions:
+php_imap.dll
+php_intl.dll
+php_opcache.dll
+Refresh the osTicket Installer Page
+
+Go back to your browser where the osTicket web installer is open.
+Refresh the page, and the previously unchecked extensions should now be enabled.
+
+
+
+
+</p>
+
+<br />
+
+
+<p>
+
+
+![image](https://github.com/user-attachments/assets/7d6b13a4-9a69-42c2-a1a3-b20d9ebb4f2a)
+
+</p>
+
+<p>
+
+Step 1: Open osTicket Installer in a Browser
+Open IIS Manager
+
+
+
+
+
 
 </p>
 
